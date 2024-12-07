@@ -57,7 +57,7 @@ https://github.com/KanizFatema0/API-Testing-of-REST-Booking-with-Postman-with-Ne
 
 # **Test Case Scenarios:**
 
-# **1.Create New Booking:**
+#1.Create New Booking:
 
 **Request URL: https://restful-booker.herokuapp.com/booking/**
 
@@ -133,7 +133,7 @@ Response Body
     }
 }
 ```
-# **Get Booking Details By ID**
+#Get Booking Details By ID
 
 **Request URL: https://restful-booker.herokuapp.com/booking/**
 
@@ -153,7 +153,7 @@ Request Body:
     "additionalneeds": "Breakfast"
 }
 ```
-# ** 3. Create A Token For Authentication **
+# 3. Create A Token For Authentication 
 
 ** Request URL: https://restful-booker.herokuapp.com/auth **
 
@@ -174,7 +174,7 @@ Response Body:
    "token": "06eb798bf6f2caa"
 }
 ```
-# ** 4. Update the Booking Details **
+#4. Update the Booking Details 
 **Request URL: https://restful-booker.herokuapp.com/booking/bookingid**
 
 Request Method: PUT
@@ -256,7 +256,7 @@ Response Body:
     "additionalneeds": "Breakfast"
 }
 ```
-# ** 5. Delete the Booking Details **
+#5. Delete the Booking Details 
 **Request URL: https://restful-booker.herokuapp.com/booking/bookingid**
 
 Request Method: DELETE
